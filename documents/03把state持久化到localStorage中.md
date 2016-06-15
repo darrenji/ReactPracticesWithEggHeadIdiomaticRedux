@@ -177,6 +177,10 @@
 
 <br>
 
+> npm install lodash.throttle --save
+
+<br>
+
 > src/index.js
 
 <br>
@@ -190,7 +194,7 @@ lodash提供了解决方案：
 	import todoApp from './reducers';
 	import App from './components/App';
 	import { loadState, saveState } from './localStorage';
-	import throttle from 'lodash/throttle';
+	import throttle from 'lodash.throttle';
 	
 	const persistedState = loadState();
 	
